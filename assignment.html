@@ -13,7 +13,11 @@
 	  <p>Second <i>Paragraph</i></p>
 	  <p>Third <b>Paragraph</b></p>
 	  <h3>Second Heading</h3>
-	  <img src="/Nature.jpeg" alt="Nature Image" height="30%" width="100%">
+	  <div id="images">
+		<img id="left" src="/Nature.jpeg" alt="Nature Image" height="30%" width="50%">
+		<img id="right" src="/html5.png" alt="Html5 Image" height="20%" width="50%">
+	  </div>
+	  <br><br><br><br>
 	  <p>Second <i>Paragraph</i></p>
 	  <p>Third <b>Paragraph</b></p>
     </fieldset>
@@ -24,12 +28,15 @@ fieldset {
     margin-left: 200px;
     margin-right: 200px;
     margin-top:150px;
-    padding-top: 0.35em;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
     box-shadow:0 0 10px;
+}
+#left{
+    float:left;
+}
+#right{
+    float:right;
 }
 </style>
 </body>
 </html>
+ 
